@@ -54,9 +54,23 @@
   background-color: #8ad191;
 }
 
+.block1__item::before {
+  color: #ffffff;
+  position: relative;
+  top: 35%;
+  left: 45%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 53px;
+  font-family: Roboto, sans-serif;
+}
+
 .block1__one {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+.block1__one::before {
+  content: "1";
 }
 
 .block1__two {
@@ -64,9 +78,17 @@
   grid-row: 1/2;
 }
 
+.block1__two::before {
+  content: "2";
+}
+
 .block1__three {
   grid-column: 3/4;
   grid-row: 1/2;
+}
+
+.block1__three::before {
+  content: "3";
 }
 
 .block1__four {
@@ -74,9 +96,17 @@
   grid-row: 2/3;
 }
 
+.block1__four::before {
+  content: "4";
+}
+
 .block1__five {
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+.block1__five::before {
+  content: "5";
 }
 
 .block2__list {
