@@ -8,7 +8,9 @@
   <body class="page-body">
     <div class="page-wrapper">
       <header class="page-header">
-        <button class="page__button" type="submit">Open pop-up button</button>
+        <button class="page__button">
+        <label for="popupCheckboxOne" class="popup-shower">Open pop-up button</label>
+        </button>
       </header>
       <main class="page-main">
         <ul class="block1__list">
@@ -29,9 +31,14 @@
       </footer>
     </div>
   </body>
-  <div class="page__pop-up pop-up">
-    <button class="pop-up__button"></button>
-    <p class="pop-up__text">Pop-up</p>
+  <div class="popup-wrapper">
+    <input type="checkbox" class="popup-checkbox" id="popupCheckboxOne">
+    <div class="popup">
+      <div class="popup-content">
+        <label for="popupCheckboxOne" class="popup-closer"></label>
+        <p class="pop-up__text">Pop-up</p>
+      </div>
+    </div>
   </div>
 </html>
 </html>
